@@ -1,0 +1,56 @@
+<style>
+  .container {
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .value {
+    padding: 10px;
+    background: #8257e6;
+    color: #fff;
+    border-radius: 5px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .level,
+  .answers {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    width: 350px;
+  }
+</style>
+
+<div class="container">
+  <p>Olá, <strong>{{name}}</strong>! Tudo bem?</p>
+
+
+  <h3>{{title}}</h3><br>
+  <p>{{description}}</p>
+
+  <div>
+    <span>Pouco provável</span>
+    <span>Muito provável</span>
+  </div>
+
+  <ul class="answers">
+    <li class="value"><a href="">1</a></li>
+    <li class="value"><a href="">2</a></li>
+    <li class="value"><a href="">3</a></li>
+    <li class="value"><a href="">4</a></li>
+    <li class="value"><a href="">5</a></li>
+    <li class="value"><a href="">6</a></li>
+    <li class="value"><a href="">7</a></li>
+    <li class="value"><a href="">8</a></li>
+    <li class="value"><a href="">9</a></li>
+    <li class="value"><a href="">10</a></li>
+  </ul>
+
+  <p>Sua opinião é muito importante para nós :)</p>
+</div>
