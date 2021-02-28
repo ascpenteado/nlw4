@@ -7,24 +7,6 @@
     display: flex;
     flex-direction: column;
   }
-
-  .value {
-    padding: 10px;
-    background: #8257e6;
-    color: #fff;
-    border-radius: 5px;
-    width: 15px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .level,
-  .answers {
-    display: flex;
-    margin: 10px;
-    justify-content: space-between;
-    width: 350px;
-  }
 </style>
 
 <div class="container">
@@ -32,25 +14,148 @@
 
 
   <h3>{{title}}</h3><br>
-  <p>{{description}}</p>
+  <p>{{description}}</p><br />
 
-  <div>
-    <span>Pouco provável</span>
-    <span>Muito provável</span>
-  </div>
-
-  <ul class="answers">
-    <li class="value"><a href="">1</a></li>
-    <li class="value"><a href="">2</a></li>
-    <li class="value"><a href="">3</a></li>
-    <li class="value"><a href="">4</a></li>
-    <li class="value"><a href="">5</a></li>
-    <li class="value"><a href="">6</a></li>
-    <li class="value"><a href="">7</a></li>
-    <li class="value"><a href="">8</a></li>
-    <li class="value"><a href="">9</a></li>
-    <li class="value"><a href="">10</a></li>
-  </ul>
+  <table cellpadding="0" cellspacing="0"
+    style="font-family: Arial, Helvetica, sans-serif; font-weight: normal;width:100%">
+    <tbody>
+      <tr>
+        <td style="width:9%;min-width:25px">
+          <table style="width:90%" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="display: block;text-align:center" align="center" height="40" bgcolor="#fff" width="100%">
+                  <a href="{{link}}/1?u={{user_id}}"
+                    style="border:1px solid #ccc;border-radius:3px;font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px; width:100%;min-width:25px; display:inline-block;color: #333332;mso-hide:all;">1
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td style="width:9%;min-width:25px">
+          <table style="width:90%" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="display: block;text-align:center" align="center" height="40" bgcolor="#fff" width="100%">
+                  <a href="{{link}}/2?u={{user_id}}"
+                    style="border:1px solid #ccc;border-radius:3px;font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px; width:100%;min-width:25px; display:inline-block;color: #333332;mso-hide:all;">2
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td style="width:9%;min-width:25px">
+          <table style="width:90%" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="display: block;text-align:center" align="center" height="40" bgcolor="#fff" width="100%">
+                  <a href="{{link}}/3?u={{user_id}}"
+                    style="border:1px solid #ccc;border-radius:3px;font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px; width:100%;min-width:25px; display:inline-block;color: #333332;mso-hide:all;">3
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td style="width:9%;min-width:25px">
+          <table style="width:90%" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="display: block;text-align:center" align="center" height="40" bgcolor="#fff" width="100%">
+                  <a href="{{link}}/4?u={{user_id}}"
+                    style="border:1px solid #ccc;border-radius:3px;font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px; width:100%;min-width:25px; display:inline-block;color: #333332;mso-hide:all;">4
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td style="width:9%;min-width:25px">
+          <table style="width:90%" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="display: block;text-align:center" align="center" height="40" bgcolor="#fff" width="100%">
+                  <a href="{{link}}/5?u={{user_id}}"
+                    style="border:1px solid #ccc;border-radius:3px;font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px; width:100%;min-width:25px; display:inline-block;color: #333332;mso-hide:all;">5
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td style="width:9%;min-width:25px">
+          <table style="width:90%" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="display: block;text-align:center" align="center" height="40" bgcolor="#fff" width="100%">
+                  <a href="{{link}}/6?u={{user_id}}"
+                    style="border:1px solid #ccc;border-radius:3px;font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px; width:100%;min-width:25px; display:inline-block;color: #333332;mso-hide:all;">6
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td style="width:9%;min-width:25px">
+          <table style="width:90%" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="display: block;text-align:center" align="center" height="40" bgcolor="#fff" width="100%">
+                  <a href="{{link}}/7?u={{user_id}}"
+                    style="border:1px solid #ccc;border-radius:3px;font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px; width:100%;min-width:25px; display:inline-block;color: #333332;mso-hide:all;">7</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td style="width:9%;min-width:25px">
+          <table style="width:90%" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="display: block;text-align:center" align="center" height="40" bgcolor="#fff" width="100%">
+                  <a href="{{link}}/8?u={{user_id}}"
+                    style="border:1px solid #ccc;border-radius:3px;font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px; width:100%;min-width:25px; display:inline-block;color: #333332;mso-hide:all;">8</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td style="width:9%;min-width:25px">
+          <table style="width:90%" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="display: block;text-align:center" align="center" height="40" bgcolor="#fff" width="100%">
+                  <a href="{{link}}/9?u={{user_id}}"
+                    style="border:1px solid #ccc;border-radius:3px;font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px; width:100%;min-width:25px; display:inline-block;color: #333332;mso-hide:all;">9</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td style="width:9%;min-width:25px">
+          <table style="width:90%" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="display: block;text-align:center" align="center" height="40" bgcolor="#fff" width="100%">
+                  <a href="{{link}}/10?u={{user_id}}"
+                    style="border:1px solid #ccc;border-radius:3px;font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px; width:100%;min-width:25px; display:inline-block;color: #333332;mso-hide:all;">10</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="6" style="font-family: Arial, Helvetica, sans-serif;color:red;font-size:12px;padding-top:10px"
+          align="left">Nem um pouco provável</td>
+        <td colspan="5"
+          style="font-family: Arial, Helvetica, sans-serif;color:green;font-size:12px;padding-top:10px;padding-right:5px;"
+          align="right">Extremamente provável</td>
+      </tr>
+    </tbody>
+  </table>
 
   <p>Sua opinião é muito importante para nós :)</p>
 </div>
